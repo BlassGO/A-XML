@@ -1,8 +1,9 @@
 # 📄 AXML
 
-**AXML** is an open-source Java command-line tool for decoding and encoding Android binary XML (AXML) files, such as `AndroidManifest.xml`.
+**AXML** is an open-source tool for decoding and encoding Android binary XML (AXML) files, such as `AndroidManifest.xml`.
 
-- Built for JDK 8+
+## Require
+- [JDK 8+](https://www.oracle.com/java/technologies/downloads/)
 
 ## Build
 
@@ -11,6 +12,7 @@ Using Gradle to build the executable JAR:
 ```bash
 ./gradlew jar
 ```
+**Output:** app/build/libs/axml-*.jar
 
 ## Usage
 
